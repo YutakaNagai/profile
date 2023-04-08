@@ -1,4 +1,7 @@
 export default {
+  // 静的ファイルを生成する設定
+  target: 'static',
+  
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'profile',
@@ -44,8 +47,5 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  },
-
-  // 静的ファイルを生成する設定
-  target: 'static'
+  }
 }
